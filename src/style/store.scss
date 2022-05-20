@@ -1,13 +1,14 @@
 .store{
     background-image: url(../components/images/lightelement.png);
     height: 150px;
-    h1{
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    &-title{
+        padding: 8px;
         color: white;
         background-color: black;
-    }
-    h2{
-        color: white;
-        background-color: black;
-        background-size: 0px 35px;
     }
 }
