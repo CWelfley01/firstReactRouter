@@ -1,8 +1,13 @@
-import React from "react"
+import React, { Component } from "react"
 
-export default function items() {
-    return (
-        <div>
-            <img src="placehold">placehold</img>
-        </div>
-    );}
+
+
+class imageGallery extends Component {
+    render() {
+        return (
+            <div>
+                <imageGallery/>
+            </div>
+        )
+    };
+}

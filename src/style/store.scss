@@ -6,9 +6,15 @@
     justify-items: center;
     align-items: center;
 
+    &-header{
+        display:grid;
+        justify-items: center;
+        align-items: center;
+    };
+
     &-title{
         padding: 8px;
         color: white;
         background-color: black;
-    }
+        };
 }
