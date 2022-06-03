@@ -1,16 +1,20 @@
 import React from "react";
+ 
 
-var imageGallery = ["./images/firebook.png",
-"./images/waterbook1.png",
-"./images/windbook.png",
-"./images/earthbook.png"]
 
-class imageGallery extends Component {
-    render() {
-        return (
-            <div>
-                <imageGallery />
-            </div>
-        )
-    };
-}
+
+export default function  ImageGallery( props ) {
+  return (
+    <div className="spellbook">
+      <h1>{props.title}</h1>
+      <img src={props.image} />
+    </div>
+  );
+  
+    
+};
+
+// this.state = {
+//   bookData: imageGallery,
+//   isOpen: true
+// };

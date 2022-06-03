@@ -10,6 +10,7 @@ import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Store from "./components/Store";
 
+
 function main() {
   ReactDOM.render(
     <BrowserRouter>
